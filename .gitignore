@@ -1,3 +1,9 @@
+*.pdf
+!KotomkinaDO.pdf
+[Bb]in/
+[Oo]bj/
+# KotomkinaDO Am-1-24
+
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio
 
@@ -9,9 +15,6 @@
 
 # User-specific files
 *.rsuser
-*.pdf
-!KotomkinaDO.pdf
-# KotomkinaDO Am-1-24
 *.suo
 *.user
 *.userosscache
@@ -34,8 +37,6 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
-[Oo]bj/
 [Ll]og/
 [Ll]ogs/
 
@@ -216,13 +217,13 @@ PublishScripts/
 # Microsoft Azure Build Output
 csx/
 *.build.csdef
-
+AppPackages/
 # Microsoft Azure Emulator
 ecf/
 rcf/
 
 # Windows Store app package directories and files
-AppPackages/
+
 BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
