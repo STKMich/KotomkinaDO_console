@@ -25,3 +25,6 @@ namespace KotomkinaDO
 //new_feature
 
 //solve task2
+
+//solve task3
+
